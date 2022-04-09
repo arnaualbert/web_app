@@ -1,16 +1,3 @@
-# from flask import Flask, render_template
-
-# from flask import request
-
-# app = Flask(__name__)
-
-# @app.route('/')
-# def index():
-#     # return "<h1>Hola Arnau</h1>"
-#     curso=['1','2','3']
-#     data={'titulo':'Index123','bienvenida':'hola', 'cursos':curso,'num_cursos':len(curso)}
-#     return render_template('index.html',data=data)
-
 from webbrowser import get
 from flask import Flask, render_template
 import random
