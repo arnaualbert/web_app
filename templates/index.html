@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioinformatica</title>
+</head>
+<form action="" method="get">
+
+    DNA sequence to count nucleotides: <input type="text" name="1">
+
+    <input type="submit" value="Count nucleotides">
+
+</form>
+<p>DNA count: {{ data.dna }}</p>
+<form action="" method="get">
+
+    DNA sequence to translate: <input type="text" name="2">
+
+    <input type="submit" value="translate to rna">
+
+</form>
+<p>RNA transcription: {{ data.adn }}</p>
+<form action="" method="get">
+
+    DNA sequence to get the complement: <input type="text" name="3">
+
+    <input type="submit" value="get the complement">
+
+</form>
+<p>complement sequence: {{ data.fasta }}</p>
+</html>
